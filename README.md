@@ -2,5 +2,5 @@
 
 | Day | Topic / Project | Description |
 |-----|-----------------|-------------|
-| 025 | CSV Data and Pandas Library | Using the Pandas library |
+| 025 | CSV Data and Pandas Library | Using the Pandas Library |
 | 026 | --------------- | ------------ |
