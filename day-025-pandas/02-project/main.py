@@ -20,16 +20,13 @@ score = 0
 data = pandas.read_csv("50_states.csv")
 t.penup()
 guessed_states = []
-missing_states = []
 while score != 50:
     answer_state = screen.textinput(title=f"Guess the state {score}/50 ", prompt="What's another state's name?")
     if answer_state is None:
         break
     answer_state = answer_state.title()
     if answer_state == "Exit":
-        for state in data.state.to_list():
-            if state not in guessed_states:
-                missing_states.append(state)
+        missing_states = [state for state in data.state.to_list() if state not in guessed_states]
         data_learn = pandas.DataFrame(missing_states)
         data_learn.to_csv("States_to_learn.csv")
         break
