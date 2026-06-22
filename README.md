@@ -3,5 +3,5 @@
 | Day | Topic / Project              | Description              |
 |-----|------------------------------|--------------------------|
 | 025 | CSV Data and Pandas Library  | Using the Pandas Library |
-| 026 | List Comprehension           | ------------------------ |
+| 026 | List Comprehension           | Using List Comprehension |
 | 027 | ---------------------------- | ------------------------ |
